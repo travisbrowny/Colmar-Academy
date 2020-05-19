@@ -1,7 +1,9 @@
-/*NAVIGATION*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*NAVIGATION*/
 header {
     background-color: #fff;
     height: 64px;
@@ -37,4 +39,10 @@ header {
 }
 #banner img {
     width: 60%;
+    display: inline-block;
+}
+.banner-right {
+    display: inline-block;
+    width: 30%;
+    background-color: red;
 }
