@@ -64,3 +64,14 @@ ul.nav {
     height: 100px;
     padding: 20px;
 }
+.cta-button {
+    font-size: 2rem;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 3rem;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+}
