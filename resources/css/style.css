@@ -19,28 +19,27 @@ h2 {
 header {
     font-size: 1.2rem;
     background-color: #fff;
-    height: 64px;
+    height: 64px;;
 }
 .logo {
-    display: inline-block;
     position: relative;
     left: 23px;
     float: left;
 }
-.nav ul {
+ul.nav {
     right:24px;
     text-decoration: none;
+    float: right;
 }
 .nav li {
-    display: inline-block;
     text-decoration: none;
     padding: 11px;
     list-style: none;
-    float: right;
+    display: inline-block;
 }
 .nav a:hover, a:link, a:active, a:visited {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 /*SPOTLIGHT*/
