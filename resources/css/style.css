@@ -63,11 +63,12 @@ ul.nav {
     width: 30%;
     height: 100px;
     padding: 20px;
+    color: #4A4A4A;
 }
 .cta-button {
     font-size: 2rem;
     display: block;
-    background-color: black;
+    background-color: #4A4A4A;
     color: white;
     width: 80%;
     height: 3rem;
