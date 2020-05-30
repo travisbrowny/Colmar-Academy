@@ -72,7 +72,7 @@ ul.nav {
     color: #4A4A4A;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .cta-button {
     font-size: 1.2rem;
