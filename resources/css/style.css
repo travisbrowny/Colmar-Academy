@@ -92,3 +92,12 @@ ul.nav {
     width: 70%;
     background-color:;
 }
+
+/*FEATURES SECTION*/
+#features {
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+}
