@@ -129,6 +129,17 @@ ul.nav {
     padding: 20px;
     color: #4A4A4A;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
+    border-left: 1px solid gainsboro;
+}
+.right-options {
+    display: block;
+    height: 160px;
+    width: 100%;
+    flex-wrap: flex-start;
+    background-color: red;
+    
 }
