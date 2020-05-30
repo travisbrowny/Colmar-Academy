@@ -53,7 +53,8 @@ ul.nav {
     height: auto;
     width: 100%;
 }
-#banner img {
+#banner img,
+#features img {
     width: 100%;
     height: auto;
     margin: 0px 10px 0px 0px;
