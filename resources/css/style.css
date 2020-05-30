@@ -137,9 +137,27 @@ ul.nav {
 }
 .right-options {
     display: block;
-    height: 160px;
+    height: auto;
     width: 100%;
-    flex-wrap: flex-start;
     background-color: red;
-    
+}
+.option-image {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.options-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: green;
+}
+.option-details {
+    background-color: gold;
+}
+.bg-gray {
+    background-color: #D8D8D8;
+}
+.bg-lightgray {
+    background-color: #F3F5F5;
 }
