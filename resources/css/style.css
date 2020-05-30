@@ -17,12 +17,19 @@ p.heading-2 {
     font-weight: bold;
     padding-bottom: 1.2rem;
 }
+#container {
+    width: 1131px;
+    margin: 0 auto;
+    border: solid 1px gainsboro;
+}
 
 /*NAVIGATION*/
 header {
     font-size: 1.2rem;
     background-color: #fff;
-    height: 64px;;
+    height: 64px;
+    width: 1131px;
+    margin: 0 auto;
 }
 .logo {
     position: relative;
@@ -101,4 +108,21 @@ ul.nav {
     background-color: #fff;
     height: auto;
     width: 100%;
+}
+.features-left {
+    display: flexbox;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+    color: #4A4A4A;
+}
+.features-right {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    color: #4A4A4A;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
