@@ -6,14 +6,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-h1 {
-    font-size: 3rem;
+p.heading-1 {
+    font-size: 2.9rem;
     font-weight: bolder;
-    line-height: 2.0rem;
+    line-height: 3rem;
 }
-h2 {
+p.heading-2 {
     font-size: 1.4rem;
-    line-height: 0.9rem;
+    line-height: 1.9rem;
+    font-weight: bold;
+    padding-bottom: 1.2rem;
 }
 
 /*NAVIGATION*/
@@ -79,13 +81,14 @@ ul.nav {
     display: block;
     background-color: #4A4A4A;
     color: white;
-    width: 70%;
-    padding: 8px 8px;
+    width: 90%;
+    padding: 18px 8px;
     text-align: center;
     border: none;
     text-align: center;
     vertical-align: middle;
 }
 .mini-container {
+    width: 70%;
     background-color:;
 }
