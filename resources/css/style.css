@@ -136,10 +136,12 @@ ul.nav {
     border-left: 1px solid gainsboro;
 }
 .right-options {
-    display: block;
     height: auto;
     width: 100%;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .option-image {
     width: 35%;
