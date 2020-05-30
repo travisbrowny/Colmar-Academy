@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 p.heading-1 {
-    font-size: 2.9rem;
+    font-size: 2.4rem;
     font-weight: bolder;
     line-height: 3rem;
 }
@@ -16,6 +16,12 @@ p.heading-2 {
     line-height: 1.9rem;
     font-weight: bold;
     padding-bottom: 1.2rem;
+}
+p.heading-3 {
+    font-size: 2.1rem;
+    line-height: 1.9rem;
+    font-weight: bold;
+    padding: 32px 0px 24px 0px;
 }
 #container {
     width: 1131px;
@@ -97,7 +103,7 @@ ul.nav {
     vertical-align: middle;
 }
 .mini-container {
-    width: 70%;
+    width: 80%;
     background-color:;
 }
 
