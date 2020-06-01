@@ -191,3 +191,10 @@ ul.nav {
 .bg-lightgray {
     background-color: #F3F5F5;
 }
+
+/*COURSES SECTION*/
+#courses {
+    background-color:#D8D8D8;
+    color: #4A4A4A;
+    text-align: center;
+}
