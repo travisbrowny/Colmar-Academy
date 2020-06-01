@@ -11,7 +11,7 @@ body {
 }
 p.heading-1 {
     font-size: 2.4rem;
-    font-weight: bolder;
+    font-weight: 800;
     line-height: 3rem;
     font-family: 'Raleway', sans-serif;
 }
@@ -24,7 +24,7 @@ p.heading-2 {
 }
 p.heading-3 {
     font-size: 1.9rem;
-    font-weight: bold;
+    font-weight: 800;
     padding: 32px 0px 24px 0px;
     font-family: 'Raleway', sans-serif;
 }
