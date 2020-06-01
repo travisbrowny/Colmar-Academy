@@ -53,6 +53,10 @@ a:visited {
     margin: 0 auto;
     border: solid 1px gainsboro;
 }
+span.break::before {
+    content: '\A\A'; 
+    white-space: pre;
+}
 
 /*NAVIGATION*/
 header {
