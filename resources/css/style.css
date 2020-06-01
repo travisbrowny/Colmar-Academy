@@ -176,3 +176,11 @@ ul.nav {
 .bg-lightgray {
     background-color: #F3F5F5;
 }
+a:link,
+a:active,
+a:visited,
+a:hover {
+    color: #4A90E2;
+    font-size: 0.8rem;
+    line-height: 2.8rem;
+}
