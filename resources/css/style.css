@@ -37,6 +37,7 @@ p.heading-4 {
 p {
     font-size: 0.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2rem;
 }
 #container {
     width: 1131px;
