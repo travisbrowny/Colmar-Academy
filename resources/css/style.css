@@ -172,6 +172,7 @@ ul.nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom:#ccc 0.01rem solid;
 }
 .option-image {
     width: 35%;
