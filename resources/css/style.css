@@ -236,5 +236,12 @@ ul.nav {
       color: #A1A1A1;
     
   }
-
+/*THESIS EXIBIT SECTION*/
+#thesis-exhibit {
+    background-color:#F3F5F5;
+    color: #4A4A4A;
+    text-align: center;
+    height: auto;
+    padding: 12px 72px 32px 72px;
+}
 
