@@ -35,6 +35,9 @@ p.heading-4 {
     padding: 0.5rem 0rem;
     color: #4A4A4A;
 }
+p.courses {
+    padding: 0.4rem 0;
+}
 p {
     font-size: 0.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
