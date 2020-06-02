@@ -62,6 +62,13 @@ span.break::before {
     white-space: pre;
 }
 
+/*BACKGROUND COLORS*/
+.bg-lightergray {
+    background-color: #F3F5F5;
+}
+.bg-white {
+    background-color: #fff;
+}
 /*NAVIGATION*/
 header {
     font-size: 1.2rem;
@@ -145,7 +152,6 @@ ul.nav {
 #features {
     display:flex;
     justify-content: center;
-    background-color: #fff;
     height: auto;
     width: 100%;
 }
@@ -242,6 +248,15 @@ ul.nav {
     color: #4A4A4A;
     text-align: center;
     height: auto;
-    padding: 12px 72px 32px 72px;
+    padding: 12px 72px 2px 72px;
 }
+.thesis-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
 
