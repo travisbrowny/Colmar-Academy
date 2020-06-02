@@ -202,7 +202,7 @@ ul.nav {
     color: #4A4A4A;
     text-align: center;
     height: auto;
-    padding: 12px 72px 0px 72px;
+    padding: 12px 72px 32px 72px;
 }
 .courses-container {
     display: flex;
