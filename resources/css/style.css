@@ -102,7 +102,7 @@ header {
     vertical-align: middle;
     left: 23px;
 }
-.logo {gi
+.logo {
     flex-basis: 50%;
     align-items: center;
     box-sizing: border-box;
@@ -141,7 +141,20 @@ ul.nav {
 .nav a:hover {
     background-size: 4px 40px;
 }
-
+/*NAVIGATION MOBILE*/
+@media only screen and (min-width: 100px) {
+header.desktop-container {
+    display: none;
+}
+header.mobile-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-nav-icon {
+    background-color: white;
+}
+}
 
 /*SPOTLIGHT*/
 #banner {
