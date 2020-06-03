@@ -93,11 +93,25 @@ header {
     width: 1131px;
     padding-top: 1.2rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.logo {
+.logo-image {
     display: inline-block;
+    vertical-align: middle;
     left: 23px;
-    float: left;
+}
+.logo {gi
+    flex-basis: 50%;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+.nav {
+    flex-basis: 50%;
+    text-align: right;
+}
 }
 ul.nav {
     right:24px;
