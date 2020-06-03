@@ -258,5 +258,9 @@ ul.nav {
     width: 95%;
     margin: auto;
 }
+/*FOOTER*/
+.line {
+    border-top: 1px solid darkgray;
+}
 
 
