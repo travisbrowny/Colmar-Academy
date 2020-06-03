@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     }
+:root {
+    --mainColor: #DEB887;
+}
 html {
     font-size: 16px;
 }
@@ -43,14 +46,27 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.2rem;
 }
+span.bold {
+    font-weight: bold;
+}
+span.lightgray {
+    color: #9F9F9F;
+}
+span.logotext {
+    top: 10px;
+    text-transform: uppercase;
+}
 a:link, 
-a:visited, 
-a:hover, 
+a:visited,  
 a:active, 
 a:visited {
-    color: #4A90E2;
+    color: steelblue;
     font-size: 0.8rem;
     line-height: 2.1rem;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 #container {
     width: 1131px;
@@ -73,12 +89,13 @@ span.break::before {
 header {
     font-size: 1.2rem;
     background-color: #fff;
-    height: 64px;
+    height: 44px;
     width: 1131px;
+    padding-top: 1.2rem;
     margin: 0 auto;
 }
 .logo {
-    position: relative;
+    display: inline-block;
     left: 23px;
     float: left;
 }
@@ -89,14 +106,28 @@ ul.nav {
 }
 .nav li {
     text-decoration: none;
-    padding: 11px;
+    padding: 0px 11px 0px 0px;
     list-style: none;
     display: inline-block;
 }
-.nav a:hover, a:link, a:active, a:visited {
-    text-decoration: none;
-    color: black;
+.nav a {
+    background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0px 0px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+  padding: 10px;
 }
+.nav a:hover {
+    background-size: 4px 40px;
+}
+
 
 /*SPOTLIGHT*/
 #banner {
@@ -142,6 +173,36 @@ ul.nav {
     text-align: center;
     vertical-align: middle;
     margin-top:20px; 
+    cursor: pointer;
+}
+.cta-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.10s;
+  }
+  
+.cta-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+.cta-button:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+.cta-button:hover span {
+    padding-right: 25px;
+    background-color: #000;
+    transition: 0.5s;
+  }
+  
+.cta-button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 .mini-container {
     width: 80%;
@@ -196,6 +257,13 @@ ul.nav {
 .options-text {
     width: 65%;
 }
+.options-text a {
+    color: steelblue;
+    text-decoration: none;
+}
+.options-text a:hover {
+    text-decoration: underline;
+}
 .option-details {
     background-color: gold;
 }
@@ -205,6 +273,7 @@ ul.nav {
 .bg-lightgray {
     background-color: #F3F5F5;
 }
+
 
 /*COURSES SECTION*/
 #courses {
