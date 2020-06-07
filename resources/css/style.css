@@ -86,7 +86,7 @@ span.break::before {
     background-color: #fff;
 }
 /*NAVIGATION*/
-header.mobile-container {
+.nav-mobile-container {
     display: none;
 }
 header {
@@ -374,11 +374,11 @@ ul.nav {
 
 
 /*NAVIGATION MOBILE*/
-@media only screen and (max-width: 5gi20px) {
+@media only screen and (max-width: 520px) {
 html {
     font-size: 45px;
 }
-header.desktop-container {
+.nav-desktop-container {
     display: none;
 }
 header.mobile-container {
