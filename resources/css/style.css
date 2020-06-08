@@ -394,6 +394,12 @@ header.mobile-container {
     padding-top: 5px;
     align-items: center;
 }
+.mobile-nav-icon img {
+    transition: transform 0.1s linear 0.1s;
+}
+.mobile-nav-icon img:hover {
+    transform: scale(1.5);
+}
 .option-image img {
     max-width: 100%;
 }
