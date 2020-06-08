@@ -370,7 +370,7 @@ ul.nav {
 
 
 
-/*NAVIGATION MOBILE*/
+/*MOBILE VERSION*/
 @media only screen and (max-width: 520px) {
 .header-desktop {
     display: none;
@@ -409,6 +409,11 @@ padding: 12px 0px;
     font-size: 1.0rem;
     font-weight: bold;
     padding: 13px 13px;
+    margin: 0 auto;
+    top: 10px;
+    position: relative;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
 }
 #container {
     width: 100%;
@@ -439,21 +444,17 @@ p.heading-2 {
     width: 100%;
     padding: 0px;
 }
-.mini-container {
+.mini-container,
+.features-right,
+.option-image, 
+.courses-container > div {
     width: 100%;
 }
 .cta-button {
     background-color: #9B9B9B;
 }
-.features-right {
-    width: 100%;
-}
 .right-options {
     flex-direction: column;
-}
-.option-image, 
-.courses-container > div {
-    width: 100%;
 }
 .option-image img {
     padding: 0px;
