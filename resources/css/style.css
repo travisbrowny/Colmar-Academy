@@ -375,6 +375,9 @@ ul.nav {
 
 /*MOBILE VERSION*/
 @media only screen and (max-width: 520px) {
+body {
+    overflow-x: hidden;
+}
 .header-desktop {
     display: none;
 }
